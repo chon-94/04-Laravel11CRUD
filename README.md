@@ -17,7 +17,7 @@
      
      CREATE DATABASE dbcrud;
 
-     GRANT ALL PRIVILEGES ON nombre_de_tu_base_de_datos.* TO 'nombre_usuario'@'localhost';
+     GRANT ALL PRIVILEGES ON dbcrud.* TO 'root'@'localhost';
      
      FLUSH PRIVILEGES;
 
@@ -35,7 +35,10 @@
 
      sudo nano /etc/php/php.ini
 
+     extension=bz2
      extension=mysqli
      extension=pdo_mysql
 
      sudo systemctl restart httpd
+
+ como consejo podriamos usar el dbeaver community
