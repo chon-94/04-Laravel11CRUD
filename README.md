@@ -26,6 +26,11 @@
 
      php artisan migrate
 
+ para limpiar caches 
+
+     php artisan config:clear
+     php artisan cache:clear
+
  puede que tengamos error... yo estoy en arch me imagino que para algunos linuxeros tambien les afectara el error que se presenta al migrar este se soluciona asi
 
      sudo nano /etc/php/php.ini
