@@ -25,9 +25,12 @@
                         </thead>
                         
                         <tbody>
+                            @forelse ($items as $item)
+                                
+
                             <tr>
-                                <td></td>
-                                <td></td>
+                                <td>{{$item->id}}</td>
+                                <td>{{$item->name}}</td>
                                 <td>
                                     <form action="" method="post">
                                         <a href="" class="btn btn-info">
@@ -48,6 +51,13 @@
                                     </form>
                                 </td>
                             </tr>
+                            @empty
+                                <tr>
+                                    <td>
+                                        no hay datos
+                                    </td>
+                                </tr>
+                            @endforelse
                         </tbody>
 
                     </table>
