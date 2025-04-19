@@ -13,6 +13,45 @@
                             Agregar 
                         </i> 
                     </a>
+                    <hr>
+                    <table class="table table-sm table-bordered text-center">
+                       
+                        <thead>
+                            <tr>
+                                <th>ID</th>
+                                <th>Nombre</th>
+                                <th>Acciones</th>
+                            </tr>
+                        </thead>
+                        
+                        <tbody>
+                            <tr>
+                                <td></td>
+                                <td></td>
+                                <td>
+                                    <form action="" method="post">
+                                        <a href="" class="btn btn-info">
+                                            <i class="fa-solid fa-table-list">
+                                                Mostrar
+                                            </i>
+                                        </a>
+                                        <a href="" class="btn btn-warning">
+                                            <i class="fa-regular fa-pen-to-square">
+                                                Editar
+                                            </i>    
+                                        </a>
+                                        <button class="btn btn-danger">
+                                            <i class="fa-duotone fa-solid fa-trash">
+                                                Borrar
+                                            </i>
+                                        </button>    
+                                    </form>
+                                </td>
+                            </tr>
+                        </tbody>
+
+                    </table>
+
                 </div>
             </div>
             
