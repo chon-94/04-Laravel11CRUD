@@ -8,9 +8,15 @@
 
             <div class="card">
                 <div class="card-body">
-                    <a href="{{route('create')}}" class="btn btn-primary">Agregar</a>
+                    <a href="{{route('create')}}" class="btn btn-primary">
+                        <i class="fa-sharp fa-solid fa-plus"> 
+                            Agregar 
+                        </i> 
+                    </a>
                 </div>
             </div>
             
         </div>
+    </div>
+</div>            
 @endsection
