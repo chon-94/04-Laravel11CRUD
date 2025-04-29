@@ -32,12 +32,17 @@ class Users extends Controller
 
     public function edit(string $id)
     {
-        //
+        $item = User::find($id);
+        return view('modules/users/edit', compact('item'));
     }
 
     public function update(Request $request, string $id)
     {
-        //
+        $item = User::find($id);
+        $item -> name = $request->name;
+        $item -> save();
+        return to_route('index');
+
     }
 
     public function destroy(string $id)

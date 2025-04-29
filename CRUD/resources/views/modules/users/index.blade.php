@@ -38,7 +38,7 @@
                                                 Mostrar
                                             </i>
                                         </a>
-                                        <a href="" class="btn btn-warning">
+                                        <a href="{{route('edit', $item->id)}}" class="btn btn-warning">
                                             <i class="fa-regular fa-pen-to-square">
                                                 Editar
                                             </i>    
